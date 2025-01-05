@@ -1,1 +1,1 @@
-# Garbage Collection and Memory Management
+# GarbageC and MemoryM
