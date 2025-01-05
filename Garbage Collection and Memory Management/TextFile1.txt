@@ -1,0 +1,30 @@
+﻿
+
+# Garbage Collector #
+
+
+Garbage Collection (GC) and Memory Management (MM) are two main mechanisms that deal with memory management in computer programming. Proper memory management in programs increases performance and prevents wastage of system resources.
+
+1. What is Garbage Collection?
+
+Garbage Collection is a mechanism that automatically cleans up unused objects in programs. In the .NET platform, GC manages objects in the "Heap" memory and deletes unused objects from the system.
+
+Heap Memory: Dynamically created objects are stored here.
+
+Stack Memory: Used for local variables and method calls.
+
+
+# Dispose və using #
+
+If the class contains unmanaged resources (such as file pointers), the Dispose() method is implemented using the IDisposable interface.
+
+The using statement ensures that the object is automatically Dispose()ed after use.
+
+
+# Memory Management #
+
+
+Managed Memory: Managed by the GC (e.g., .NET Heap).
+
+Unmanaged Memory: Files, network connections, or incomplete resources (e.g., FileStream or Database Connection).
+
