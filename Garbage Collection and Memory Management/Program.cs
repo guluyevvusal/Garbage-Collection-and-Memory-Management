@@ -30,6 +30,7 @@ class Program
         GC.WaitForPendingFinalizers(); // Ensures finalizers have completed
 
         // Calling GC again to ensure it runs after finalizers
+
         GC.Collect(); // Additional call to ensure cleanup
 
     
